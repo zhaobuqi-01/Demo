@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C_demo/global.h
+
+D:/C_demo/map.c
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+map.h
+D:/C_demo/map.h
+
+D:/C_demo/map.h
+global.h
+D:/C_demo/global.h
+
